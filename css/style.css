@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+   background-color: black; 
+  overflow-x: hidden;
+}
+.navbar{
+    width: 100vw;
+ position: fixed;
+ top: 1%;
+ z-index: 1;
+}
+.visite{
+   
+    padding: 10px;
+   margin-left: 6%;
+   color: blueviolet!important;
+ }
+   @media only screen and (max-width: 375px){
+      
+    .navbar{
+        width: 100vw;
+     position: fixed;
+     top: 3%;
+     z-index: 1;
+    }
+   }
+
+.allli a{
+   
+    padding: 10px;
+   margin-left: 20px;
+   color: blueviolet!important
+}
+.allli a:hover ,.visite:hover{
+ 
+    border-bottom: 1px solid whitesmoke;
+    color: blueviolet!important
+}
+
+.menumobile2{
+    background-color:  blueviolet;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.menumobile{
+  background-color: transparent;
+  border: transparent;
+
+
+
+  }
+
+
+.one,.london,.paris,.tokyo,.lv{
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.9;
+}
+.blur{
+ display: grid;
+  place-content: center;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+color: white ;
+
+ background-color: rgb(255, 255, 255,0.1);
+ backdrop-filter: blur(5px);
+ width: 40vw;
+ height: 40vh;
+ border: solid 5px transparent;
+ border-radius: 1rem;
+
+}
+.blur h1{
+    text-align: center;
+}
+.blur2 h1{
+    text-align: center;
+}
+.blur2{
+    display: grid;
+    place-content: center;
+  
+    position: absolute;
+    
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+color: white ;
+
+ background-color: rgb(255, 255, 255,0.1);
+ backdrop-filter: blur(5px);
+ width: 40vw;
+ height: 40vh;
+ border: solid 5px transparent;
+ border-radius: 1rem;
+
+}
+.blur3{
+    display: grid;
+    place-content: center;
+  
+    position: absolute;
+    
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+color: white ;
+
+ background-color: rgb(255, 255, 255,0.1);
+ backdrop-filter: blur(5px);
+ width: 40vw;
+ height: 40vh;
+ border: solid 5px transparent;
+ border-radius: 1rem;
+
+}
+.blur4{
+    display: grid;
+    place-content: center;
+  
+    position: absolute;
+    
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+color: white ;
+
+ background-color: rgb(255, 255, 255,0.1);
+ backdrop-filter: blur(5px);
+ width: 40vw;
+ height: 40vh;
+ border: solid 5px transparent;
+ border-radius: 1rem;
+
+}
+.blur5{
+    display: grid;
+    place-content: center;
+  
+    position: absolute;
+    
+    top: 450%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+color: white ;
+
+ background-color: rgb(255, 255, 255,0.1);
+ backdrop-filter: blur(5px);
+ width: 40vw;
+ height: 40vh;
+ border: solid 5px transparent;
+ border-radius: 1rem;
+
+}
+body::-webkit-scrollbar {
+    width: 0.5em;
+
+  }
+   
+ 
+   
+  body::-webkit-scrollbar-thumb {
+    background-color:blueviolet;
+    border-radius: 1rem;
+  
+  }
